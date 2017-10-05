@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/alexa-js/alexa-verifier-middleware#readme",
   "dependencies": {
-    "alexa-verifier": "^0.4.0"
+    "alexa-verifier": "git+https://github.com/chrislennon/alexa-verifier.git",
   },
   "devDependencies": {
     "body-parser": "^1.17.2",
