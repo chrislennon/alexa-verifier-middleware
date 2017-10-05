@@ -33,6 +33,9 @@ module.exports = function alexaVerifierMiddleware(req, res, next) {
       req.body = {}
     }
 
+    console.log('debug some stubborn headers');
+    console.log(req.headers);
+
     certUrl = req.headers.signaturecertchainurl
     signature = req.headers.signature
 
